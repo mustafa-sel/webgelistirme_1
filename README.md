@@ -1,4 +1,4 @@
-# mustafafan-n-deposu
+# HTML-ÖDEV-1
 <h1>Mustafa Selçukoğlu</h1>
 <h2>Hakkımda</h2>
 <p>Merhaba.Adım Mustafa.Adana'da yaşıyorum.Film izlemeyi çok seviyorum.En sevdiğim film Yüzüklerin efendisidir.Kendimi web geliştirme,yazılım konularında geliştirmek istiyorm.Kodluyoruza teşekkür ederim.</p>
