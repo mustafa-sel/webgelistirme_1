@@ -1,0 +1,123 @@
+* {
+    margin:0px;
+}
+
+.first-header {
+    text-align: center;
+    font-family: 'h.h._samuelregular';
+    font-size: 20px;
+    margin: 0;
+    background-color: bisque;
+}
+#header {
+    background-color: #4d301f;
+    height: 100px;
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    margin: 0px;
+    position: relative;
+}
+#menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline;
+    list-style: none;
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+}
+#menu ul a{
+    float: left;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+    padding: 40.5px 24px;
+    transition: background-color 0.5s ease;
+    text-decoration: none;
+}
+.click-list {
+    background-color: #e9f1ea;
+    display: flex;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 auto;
+    width: max-content;
+}
+
+article { background-color: #e9f1ea;
+
+}
+.click-slide{
+    display: block;
+}
+.tıkla-gelsin-img {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 10px;
+    background-color: #ffffff;
+    padding-bottom: 0;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#menu1{
+    text-align: center;
+    color: #4d311f;
+    font-size: 20px;
+    font-weight: bold;
+    height: 55px;
+}
+.content{
+    font-family: 'h.h._samuelregular';
+    font-size: 20px;
+    margin: 0;
+    background-color: bisque;
+    padding-left: 10px;
+    padding-right: 60px
+}
+.content p {
+    text-indent: 25px;
+    
+}
+.footer-content p{
+    text-indent: 25px;
+    margin: auto;
+    width: 100%;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.footer-content{
+    font-family: 'h.h._samuelregular';
+    font-size: 20px;
+    margin: 0;
+    background-color: #FFF;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+#contact{
+    background-color: #e9f1ea;
+    font-family: 'h.h._samuelregular';
+    font-size: 25px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 60px;
+    color: #4d301f;
+}
