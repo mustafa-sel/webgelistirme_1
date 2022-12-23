@@ -1,0 +1,48 @@
+.img{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.img-content{
+    text-align: center;
+}
+#header{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #dddd;
+}
+
+.box-1{
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+}
+#col1{
+    margin-bottom: 0px;
+}
+.box-2{
+    float: left;
+    font-size: 20px;
+    height: 100px;
+    margin: 2px 2px 0px 0px;
+    padding: 5px;
+    text-align: center;
+}
+.weight{
+    width: 650px;
+    background-color: rgba(6, 232, 240, 0.867);
+}
+.weight1{
+    width: 350px;
+    background-color: rgba(3, 207, 214, 0.867);
+}
+.weight2{
+    width: 868px;
+    background-color: rgba(3, 151, 156, 0.867);
+}
+.footer p{
+    text-align: center;
+}
