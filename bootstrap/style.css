@@ -1,0 +1,16 @@
+body {
+background-color: #E9ECEF ;
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: gray;
+}
+.navbar .menu a:hover{
+    color: white;
+}
+.checked{
+    color: orange;
+}
+.checked:hover{
+    color: black;
+}
