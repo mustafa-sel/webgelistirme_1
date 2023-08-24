@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    double decimal;
+    printf("Bir ondalık sayı girin: ");
+    scanf("%lf", &decimal);
+
+    printf("Ondalık sayı (hex): %a\n", decimal);
+
+    return 0;
+}
