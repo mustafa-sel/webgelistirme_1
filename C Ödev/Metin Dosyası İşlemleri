@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    FILE *file = fopen("metin.txt", "w");
+    if (file == NULL) {
+        printf("Dosya oluşturulamadı.\n");
+        return 1;
+    }
+
+    fprintf(file, "Merhaba, bu bir metin dosyasıdır.\n");
+    fclose(file);
+
+    file = fopen("metin.txt", "r");
+    if (file == NULL) {
+        printf("Dosya açılamadı.\n");
+        return 1;
+    }
+
+    char line[100];
+    while (fgets(line, sizeof(line), file) != NULL) {
+        printf("%s", line);
+    }
+
+    fclose(file);
+
+    return 0;
+}
