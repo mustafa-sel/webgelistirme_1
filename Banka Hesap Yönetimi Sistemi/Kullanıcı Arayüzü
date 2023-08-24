@@ -1,0 +1,9 @@
+int main() {
+    struct User users[100];
+    int userCount = 0;
+
+    // Kullanıcı arayüzü kodları
+    // Menü oluşturma, giriş seçenekleri, işlem seçenekleri vb.
+
+    return 0;
+}
