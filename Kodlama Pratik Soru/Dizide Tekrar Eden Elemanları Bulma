@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void findDuplicates(int arr[], int size) {
+    int hash[1000] = {0}; // Örnek olarak, 1000 elemanlı bir hash tablosu
+
+    for (int i = 0; i < size; i++) {
+        if (hash[arr[i]] == 1) {
+            printf("%d tekrar eden bir elemandır.\n", arr[i]);
+        } else {
+            hash[arr[i]] = 1;
+        }
+    }
+}
+
+int main() {
+    int arr[] = {1, 2, 3, 2, 5, 6, 7, 7, 3};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    findDuplicates(arr, size);
+
+    return 0;
+}
