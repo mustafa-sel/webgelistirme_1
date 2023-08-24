@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+
+// Kullanıcı veri yapısı
+struct User {
+    char name[50];
+    int accountNumber;
+    float balance;
+};
+
+// Kullanıcı kaydetme işlemi
+void addUser(struct User *users, int *userCount) {
+    // Kullanıcı bilgilerini al ve users dizisine ekle
+}
+
+// Kullanıcı güncelleme işlemi
+void updateUser(struct User *users, int userCount, int accountNumber) {
+    // Belirli hesap numarasına sahip kullanıcının bilgilerini güncelle
+}
+
+// Kullanıcı silme işlemi
+void deleteUser(struct User *users, int *userCount, int accountNumber) {
+    // Belirli hesap numarasına sahip kullanıcıyı sil
+}
