@@ -1,0 +1,7 @@
+void saveUsersToFile(struct User *users, int userCount) {
+    // Kullanıcı bilgilerini bir dosyaya kaydet
+}
+
+void loadUsersFromFile(struct User *users, int *userCount) {
+    // Dosyadan kullanıcı bilgilerini yükle
+}
