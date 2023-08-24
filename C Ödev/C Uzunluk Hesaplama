@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char input[1000];
+    printf("Bir kelime veya cümle girin: ");
+    fgets(input, sizeof(input), stdin);
+
+    int length = strlen(input) - 1; // '\n' karakterini dahil etme
+    printf("Girilen kelime/cümle uzunluğu: %d\n", length);
+
+    return 0;
+}
