@@ -1,0 +1,49 @@
+/* Media.css */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200;400&family=Roboto:ital,wght@0,400;1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+.news-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .news-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .news-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-card h2 {
+    font-size: 0.85rem;
+    margin: 0;
+  }
+  
+  .news-card p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .news-card a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0074d9;
+  }
+  
+  .header_news{
+    text-align: center;
+  }
