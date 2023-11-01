@@ -1,1 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 
+.NavBarLi{
+    display: flex;
+    background-image: url('./img.jpg');
+    height: 50px;
+    align-items: center;
+    background-position: cover;
+}
+.NavBarLi h2{
+    margin: 0;
+    
+}
+
+.NavBarLi ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.NavBarLi ul li a:hover{
+    color: black;
+    
+}
+
+.NavBarLi ul li {
+    list-style-type: none;
+    padding: 0 10px;
+    
+}
+
+.NavBarLi ul{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    position: absolute;
+    right: 0;       
+}
